@@ -15,8 +15,8 @@ public class Assignment1 {
     public static void main(String[] args) throws Exception {
 
         // Create output file and file writer
-        File myFile = new File("output.txt");
-        FileWriter fw = new FileWriter("output.txt");
+        File myFile = new File("primes.txt");
+        FileWriter fw = new FileWriter("primes.txt");
 
         // Start execution time, create thread array
         long startTime = System.nanoTime();
