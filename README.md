@@ -11,4 +11,4 @@ To run:
 cd to src directory with Assignment1.java
 In command prompt type: javac Assignment1.java
 Then type: java Assignment1
-The output will be printed to output.txt
+The output will be printed to primes.txt
