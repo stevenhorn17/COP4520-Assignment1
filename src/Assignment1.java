@@ -41,7 +41,7 @@ public class Assignment1 {
         long duration = (endTime - startTime);
 
         // Write output to file
-        fw.write(duration / 1000000000 + " seconds, count = " + counter + ", sum = " + sum);
+        fw.write(duration / 1000000 + " milliseconds, count = " + counter + ", sum = " + sum);
         fw.write(String.format("%n"));
 
         // Go to end - 10 index and count 10 primes up
